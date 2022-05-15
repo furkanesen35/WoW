@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lobster&family=Nunito+Sans:wght@300&family=Nunito:wght@200&family=Oleo+Script+Swash+Caps&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto:wght@100&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    font-family: 'Lato', sans-serif;
+    opacity: 0.7;
+    line-height: 2rem;
+}
+.bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width: 100vw;
+}
+.wow{
+    background-image: url(./wow-battle-for-azeroth.jpg);
+}
+.bg h2{
+    color: black;
+    background-color: rgb(110, 110, 216);
+    padding: 2rem;
+    letter-spacing: 0.5rem;
+    border-radius: 2px;
+    font-size: 3rem;
+    outline: 0.5rem solid crimson;
+    outline-offset: 5px;
+    font-weight: 600;
+}
+section{
+    text-align: center;
+    padding: 3rem;
+}
+.legion img{
+    width: 18rem;
+}
+.legion{
+    width: 100%;
+    background-image: url(./world-of-warcraft-legion-wallpaper.webp);
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.alliance{
+    width: 100%;
+    background-image: url(./alliance.jpg);
+}
+.horde{
+    width: 100%;
+    background-image: url(./horde.jpg);
+}
+.a-h{
+    width: 100%;
+    background-image: url(./WoW-Horde-Alliance.jpg);
+}
